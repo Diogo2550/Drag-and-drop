@@ -1,0 +1,62 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.intro {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.droppable {
+    width: 300px;
+    height: 100%;
+
+    border: 1px solid rgba(20, 10, 15, .6);
+    background-color: rgb(240, 240, 240);
+}
+
+.droppable div {
+    margin: 20px auto;
+}
+
+.draggable {
+    width: 250px;
+    height: 150px;
+
+    background-color: rgb(245, 230, 182);
+}
+
+.droppables-container, .draggables-container {
+    margin: 20px auto;
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+}
+
+.draggables-container {
+    height: auto;
+}
+
+body {
+    background-color: #CACACA;
+}
+
+.red {
+    background-color: rgb(238, 78, 78);
+}
+
+.blue {
+    background-color: rgb(114, 190, 240);
+}
+
+.green {
+    background-color: rgb(150, 231, 147);
+}
+
+.purple {
+    background-color: rgb(172, 122, 236);
+}
